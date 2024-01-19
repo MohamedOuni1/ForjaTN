@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forja TN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">    
+   
+   
+   <style>
+        input[type=text]{
+            width: 350px;
+            height: 40px;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-color: black;
+
+        }     
+        input[type=submit]{
+            width: 100px;
+            height: 48px;
+            margin-left: 20px;
+            margin-top: 10px;
+            border-color: blue;
+            background-color: blue;
+            color: white;
+            font-size: 15px;
+        }
+        a {
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header> 
+        <!--------------------logo------------->
+        <div id="titre">
+            <a href="index1.html">ForjaTN</a>
+         </div>
+
+          <!----------------Barre de navigation------------->       
+        <nav>
+            <ul>
+                <li><a href="index1.html">Acceuil</a></li>
+                <li><a href="index3.html">Séries</a></li>
+                <li><a href="index4.html">Films</a></li>
+                <li><a href="index5.html">Documentaires</a></li>
+            </ul>
+        </nav>
+         <!----------------Fin Barre de navigation------------->        
+    </header>
+
+<div  id="banner">
+        <h2>Bienvenue sur le platform numéro 1 en Tunisie .</h2>
+        <span> Saisissez votre adresse e-mail pour vous abonner </span>
+        <br>
+        <form method="post" action="fichier.php" onsubmit="return validFrom()" >
+            <input type="text" name="login" id="login" placeholder="Adresse Email">
+            <input type="submit" value="COMMENCER" id="Commencer" >
+        </form>
+        <br>
+        <strong><a  href="index2.html" style="background-color: blue ; color:rgb(255, 0, 0);">SE CONNECTER</a></strong>
+
+    
+</div>
+
+<!---------------footer---------------->
+
+<footer>
+    <ul class="rx">
+        <li><a href="www.instagram.com/med.ounii/"><img src="images/icons8-instagram-48.png" title="Instagram" width="40" height="40"></a></li>
+        <li><a href="www.facebook.com/mohamedouni32/"><img src="images/icons8-facebook-48.png" title="Facebook" width="40" height="40"></a></li>
+        <li><a href="www.youtube.com/channel/UCxbXwxryyFH60YAXSMZMzPA"><img src="images/icons8-youtube-64.png" title="Youtube" width="40" height="40"></a></li>   
+    </ul>
+    <p>Copyright © 2024 ForjaTN. Tous droits réservés. </p>
+</footer>  
+
+
+
+      <script src="JAVA/js.js"></script>
+  
+</body>
+</html>
